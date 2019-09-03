@@ -1,0 +1,35 @@
+
+plugins {
+    id 'war'
+    id 'org.gretty' version '2.2.0' 
+}
+
+
+dependencies {
+
+    compile 'org.mongodb:mongodb-driver:3.6.4'
+    
+    // https://mvnrepository.com/artifact/jstl/jstl
+    compile 'jstl:jstl:1.2'
+
+    
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0' 
+    
+    // https://mvnrepository.com/artifact/org.json/json
+    compile 'org.json:json:20090211'
+    
+    testCompileOnly 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
+    // https://mvnrepository.com/artifact/org.mockito/mockito-all
+    testCompile 'org.mockito:mockito-all:1.9.5'
+
+}
+
+repositories {
+    jcenter()
+}
+
+test{   
+    useJUnitPlatform()
+}

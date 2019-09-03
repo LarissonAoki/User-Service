@@ -1,0 +1,189 @@
+
+* {
+    margin: 0px; 
+    padding: 0px; 
+    list-style: none;
+    vertical-align: baseline;
+}
+
+#logotipo{
+    background-color: var(--background-logo-section-color);
+    
+    color: var(--text-color);
+    width: 100%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+#conteudo-topo{
+    padding-top: 20px;
+    max-width: 960px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+     
+.instituto{
+    padding: 8px 0px 8px 0px;
+    font-size: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+.ministerio{
+    padding: 8px 0px 8px 0px;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-transform: uppercase;    
+    font-style: normal;
+
+}
+
+#fixa-menu{
+    background-color: var(--background-nav-section-color);
+    
+    color: var(--text-color);
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+#conteudo-fixa-menu{
+    text-align: right;
+    width: 100%;
+    height: 45px;
+    max-width: 960px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 8px 0px;
+}
+
+#titulo{
+    float: left;
+    font-size: 25px;
+    color: var(--text-color);
+    text-align: center;
+    padding-right: 25px;
+}
+#titulo:hover{
+    color: var(--text-hover-logo-color);
+}
+
+
+#menu ul{
+    list-style: none;
+    
+    height: auto;
+    width: auto;
+}
+
+#menu ul li{
+    width: auto;
+    float: left;
+}
+
+#menu a{
+    padding: 7px 15px 5px 15px;
+   
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Arial';
+    font-size: 20px;
+    border-left: 2px;
+    border-left-color: var(--border-nav-section-color);
+    
+}
+
+#menu a:hover{
+    color: var(--text-hover-nav-section-color);
+}
+
+#aparecer_menu{
+    display: none;
+}
+
+#text{
+    margin: 5px;
+}
+@media  (max-width: 970px){
+    #conteudo-topo{
+        padding-left: 15px;
+    }
+    
+    #titulo{
+        padding-left: 15px;
+    }
+}
+
+@media  (max-width: 600px){
+    #conteudo-topo{
+        padding-left: 15px;
+    }
+    
+    #fixa-menu{
+        height: 70px;
+    }
+    
+    #titulo{
+        padding-right: 0px;
+        text-align: center;
+        width: 80%;
+        font-size: 45px;
+    }
+    #menu ul{
+        z-index: 1;
+        padding-top: 0px;
+        padding-left: 0px;
+        float: left;
+        
+        width: 100%;
+    }
+    #menu a{
+        padding: 15px;
+        margin: 0px;
+        text-align: left;
+        font-size: 20px;
+        background-color: var(--background-nav-section-color);
+        
+    }
+    
+    #menu ul li{
+        
+        width: 100%;
+        float: none;
+    }
+    
+    #aparecer_menu{
+        float: left;
+        position: relative;
+        display: block;
+        width: 45px;
+        height: 45px;
+        border: none;
+        top: 5px;
+        left: 16px;
+        
+        background-color: var(--background-nav-section-color);
+        color: var(--text-color);
+        font-family: 'Arial';
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+@media  (max-width: 300px){
+   
+    
+    #aparecer_menu{
+        top: 10px;
+        left: 10px;
+    }
+    
+    #titulo{
+        width: 50%;
+        padding-right: 20px;
+    }
+}

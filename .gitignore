@@ -1,0 +1,5 @@
+.gitignore.swp
+.gradle/
+.nb-gradle/
+build/
+

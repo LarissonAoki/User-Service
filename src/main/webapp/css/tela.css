@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.busca{
+    clear: both;
+}
+.busca{ 
+    float: left;
+    width: 30%;
+    height: 70%;
+    background: orange;
+    color: white;
+}
+
+
+#map{
+    float: left;
+    background: aquamarine;
+    width: 70%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+
+#aparecer_mapa{
+    display: none;
+}
+
+@media (max-width: 1500px){
+    .busca{
+        width: 35%;
+    }
+    
+    #map{
+        width: 65%;
+    }
+}
+
+@media (max-width: 970px){
+    .busca{
+        width: 100%;
+        height: 30%;
+    }
+    
+    #map{
+        width: 100%;
+        height: 60%;
+    }
+}
+
+
+@media (max-width: 600px){
+        
+    
+    #map{
+        display: none;
+        width: 100%;
+        height: 80%;
+    }
+    
+    
+    .busca{
+        background: red;
+        width: 100%;
+        height: 80%;
+        text-align:left;
+    }
+    
+    #aparecer_mapa{
+        border: none;
+          
+        background-color: #1bc5e5;
+        color: white;
+        text-align: center;
+        font-size: 23px;
+        display: block;  
+        width: 100%;
+    }
+}

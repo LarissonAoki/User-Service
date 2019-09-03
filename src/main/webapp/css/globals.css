@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/06/2019, 17:15:47
+    Author     : larissa
+*/
+:root{
+--background-logo-section-color:rgb(58, 114, 188);
+--background-nav-section-color: #0E4097;
+
+--text-color: rgb(255,255,255);
+--text-hover-logo-color: #D5E1F1;
+--text-hover-nav-section-color: rgb(107, 155, 208);
+
+--border-nav-section-color: #496FB0;
+
+--login-botton-color: #4515c9;
+--login-botton-hover-color: #333333;
+--login-txt1-hover-color: #999999;
+
+--background-input-symbol-color: #666666;
+
+
+
+
+
+
+}

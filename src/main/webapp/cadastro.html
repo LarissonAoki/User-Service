@@ -1,0 +1,104 @@
+
+<html>
+    <head>
+        <title>Tela Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="css/globals.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <link rel="stylesheet" type="text/css" href="css/login_cadastro.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script type="text/javascript" src="js/button.js"></script>
+    </head>
+    <body>
+        <div class="limiter">
+            <div id="logotipo">
+                <div id="conteudo-topo">
+                    <div class="instituto"> Instituto Nacional de Pesquisas Espaciais</div>
+                    <a id="logoinpe" href="http://www.inpe.br/">
+                        <img src="img/logotipoInpe.png" alt="Logotipo do INPE">
+                    </a>
+                    <div class="ministerio">Ministério da Ciência, Tecnologia, Inovações e Comunicações</div>
+                </div>
+                
+            </div>
+            
+            <div id="fixa-menu">
+                <div id="conteudo-fixa-menu">
+                    <button id="aparecer_menu">&#9776;</button>
+                    <label id="titulo">Catalog</label>
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="http://localhost:8080/Service/"><i class="fa fa-ul fa-home" aria-hidden="true"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-ul fa-heart" aria-hidden="true"></i>Favoritos</a></li>
+                            <li><a href="login.html"><i class="fa fa-ul fa-user" aria-hidden="true"></i>Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="container-login100">
+                <div class="wrap-login100">
+                    
+                    <form class="login100-form validate-form" action="/Service/access" method="GET" >
+                        <span class="login100-form-title"> Cadastro </span>
+                        <div class="wrap-input100 validate-input" data-validate="Preenchimento Obrigatório">
+                            <input class="input100" type="text" name="userName" placeholder="Nome do Usuário">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Preenchimento Obrigatório">
+                            <input class="input100" type="password" name="password" placeholder="Senha">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Preenchimento Obrigatório">
+                            <input class="input100" type="text" name="email" placeholder="Email">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Preenchimento Obrigatório">
+                            <input class="input100" type="text" name="phoneNumber" placeholder="Telefone">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Preenchimento Obrigatório">
+                            <input class="input100" type="text" name="country" placeholder="Pais">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Preenchimento Obrigatório">
+                            <input class="input100" type="text" name="organization" placeholder="Organização">
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-building" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="container-login100-form-btn">
+                            <input class="login100-form-btn" type="submit" value="Cadastrar" id="botao">
+                            <br><br> <input class="login100-form-btn" type="button" value="Voltar" onclick="window.location.href='login.html'">
+                        </div>
+                        
+                        
+                    </form>
+                   
+                   
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
