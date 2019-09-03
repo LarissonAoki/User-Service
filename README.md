@@ -1,5 +1,6 @@
 # User Service
 
-ServiÁo de usu·rio de login e cadastro utilizando o MongoDB como banco de dados. </br>
-ServiÁo que ir· consultar o banco de dados, e com isto retornar um Json com dados de usu·rio e se a consulta foi sucedida (true) ou n„o (false). </br>
-A aplicaÁ„o do Cat·logo ir· "consumir" este serviÁo, com o intuito de tornar a aplicaÁao mais pr·tica e sem ocupar muito tempo e espaÁo. 
+Servi√ßo de usu√°rio de login e cadastro utilizando o MongoDB como banco de dados. </br>
+Servi√ßo que ir√° consultar o banco de dados, e com isto retornar um Json com dados de usu√°rio e se a consulta foi sucedida (true) ou n√£o (false). </br>
+A aplica√ß√£o do Cat√°logo ir√° "consumir" este servi√ßo, com o intuito de tornar a aplica√ßao mais pr√°tica e sem ocupar muito tempo e espa√ßo. </br>
+Foi realizado testes do servi√ßo com o Junit.
